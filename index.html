@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <!-- Linking CSS File -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Fontawesome link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Bootstrap link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+</head>
+
+<body>
+  <!-- Header & Navbar -->
+  <!-- The above code is creating a fixed-top navigation bar with a dark background. It includes a brand
+  name "Satyam Gupta" on the left side and a collapsible menu on the right side with links to
+  different sections of a webpage such as "SKILLS", "LIVE PROJECTS", "ABOUT ME", and "CURRICULUM
+  VITAE". The navigation bar is responsive and will collapse into a hamburger menu on smaller
+  screens. -->
+  <header class="bg-black fixed-top">
+    <nav class="container-xxl navbar navbar-expand-lg py-3 navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold fs-3" href="#">Satyam Gupta</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#skills">SKILLS</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#portfolio">LIVE PROJECTS</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#about">ABOUT ME</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#cv">CURRICULUM VITAE</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero or Showcase Section -->
+  <!-- The above code is creating a section on a webpage dedicated to showcasing skills related to
+  front-end and back-end development. It includes two cards, each highlighting different skill sets.
+  The first card displays the name "Satyam Gupta" with the title "Software Developer" in a visually
+  appealing layout. -->
+  <section class="hero d-flex flex-column align-items-center justify-content-center">
+    <div class="text-center">
+      <h1 class="h1 text-white fw-medium fst-italic">Hello, I am Satyam Gupta</h1>
+      <h2 class="display-3 text-white fw-bold">Software Developer</h2>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <!-- The above code is creating a section on a webpage dedicated to showcasing skills related to
+  front-end and back-end development. It includes two cards, each highlighting different skill sets: -->
+  <section class="container py-5" id="skills">
+    <div class="row mt-4 py-3">
+      <div class="col-12 d-flex flex-column text-center justify-content-center">
+        <h2 style="text-decoration-line: underline;">SKILLS</h2>
+        <h5 class="text-secondary fw-normal py-2 fst-italic">Dedicated to continuously enhancing my skills and expanding
+          my knowledge within the field</h5>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-between mx-0">
+      <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 40rem">
+        <i
+          class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fas fa-code"></i>
+        <h3 class="mt-4 h4">Front-end Development</h3>
+        <p class="text-center">I possess proficiency in HTML, CSS, and JavaScript, complemented by substantial
+          experience in responsive web design and the development of intuitive user interfaces. I adeptly utilize modern
+          frameworks like ReactJS and Tailwind CSS to enhance functionality and aesthetic appeal. Committed to ongoing
+          skill enhancement, I remain abreast of industry trends and adhere to best practices to deliver optimal
+          outcomes in web development projects.</p>
+      </div>
+      <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 40rem">
+        <i
+          class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-laptop"></i>
+        <h3 class="mt-4 h4">Back-end Development</h3>
+        <p class="text-center">Proficient in server-side programming utilizing technologies such as PHP and frameworks,
+          as well as Python and its associated frameworks. Experienced in integrating and managing databases, including
+          MongoDB and MySQL, to ensure robust data-driven applications. Continuously advancing skills in these areas to
+          effectively contribute to complex web development projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <!-- The above code is creating a section for displaying live projects in a portfolio. It includes two
+  project cards with images, titles, and descriptions. Each card represents a project with a link to
+  view the project live. The first project is a React JS Todo List and the second project is a
+  Netflix Landing Page created using Tailwind CSS. The section is styled using Bootstrap classes for
+  layout and alignment. -->
+  <section class="container py-5" id="portfolio">
+    <div class="row mt-4 py-3">
+      <div class="col-12 d-flex flex-column text-center justify-content-center">
+        <h2 style="text-decoration-line: underline;">LIVE PROJECTS</h2>
+        <h5 class="text-secondary fw-normal py-2 fst-italic">A collection of projects I've worked on.</h5>
+      </div>
+      <div class="row mt-5 mx-0 justify-content-center align-items-center">
+        <div class="col-lg-3 col-md-4 col-12 card-wrapper">
+          <div class="card mt-4">
+            <img src="images/landing-page.jpg" class="img-fluid" alt="portfolio-img">
+            <div class="card-body text-center">
+              <h6 class="card-title"><a href="https://satyam2344.github.io/todo_reactjs/">React JS Todo List</a></h6>
+              <p class="card-text text-secondary">React JS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 card-wrapper">
+          <div class="card mt-4">
+            <img src="images/netflix.jpg" class="img-fluid" alt="portfolio-img">
+            <div class="card-body text-center">
+              <h6 class="card-title"><a href="https://satyam2344.github.io/Netflix_LandingPage/">Netflix Landing
+                  Page</a></h6>
+              <p class="card-text text-secondary">Tailwind CSS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <!-- The above code is an HTML section that represents an "About Me" section on a webpage. It includes
+  information about the person's educational background and work experience in a timeline format
+  with corresponding images. The section starts with a heading "ABOUT ME" followed by a brief
+  description. Each timeline entry includes a year, an accomplishment or experience, and an image.
+  The section ends with a highlighted callout stating "Your Next Hire". -->
+  <section class="container py-5" id="about">
+    <div class="row mt-4 py-3">
+      <div class="col-12 d-flex flex-column text-center">
+        <h2 style="text-decoration-line: underline;">ABOUT ME</h2>
+        <h5 class="text-secondary fw-normal py-2 fst-italic">Learn more about me, my background, and what motivates me.
+        </h5>
+      </div>
+    </div>
+    <div class="row flex-row-reverse flex-md-row mt-5 pt-5">
+      <div class="col-9 col-md-5 text-md-end">
+        <h5>2015</h5>
+        <h5>Completed High School with first division</h5>
+      </div>
+      <div class="col-3 col-md-2 img text-center">
+        <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/about-img-1.jpg" alt="img">
+      </div>
+    </div>
+    <div class="row justify-content-md-end mt-5 pt-5">
+      <div class="col-3 col-md-2 img text-center">
+        <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/about-img-2.jpg" alt="img">
+      </div>
+      <div class="col-9 col-md-5">
+        <h5>2017</h5>
+        <h5>Completed Intermediate with first division</h5>
+      </div>
+    </div>
+    <div class="row flex-row-reverse flex-md-row mt-5 pt-5">
+      <div class="col-9 col-md-5 text-md-end">
+        <h5>2018-2022</h5>
+        <h5>Completed Bachelor of Technology(Information Technology) with first division</h5>
+      </div>
+      <div class="col-3 col-md-2 img text-center">
+        <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/about-img-3.jpg" alt="img">
+      </div>
+    </div>
+    <div class="row justify-content-md-end mt-5 pt-5">
+      <div class="col-3 col-md-2 img text-center">
+        <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="images/about-img-4.jpg" alt="img">
+      </div>
+      <div class="col-9 col-md-5">
+        <h5>2022-2023</h5>
+        <h5>Worked as Associate Software Engineer at CEDCOSS Technology</h5>
+      </div>
+    </div>
+    <div class="row justify-content-md-center mt-5 pt-5">
+      <div class="col-3 col-md-2 d-flex justify-content-center hire-text">
+        <h2
+          class="h4 d-flex justify-content-center align-items-center bg-primary text-white rounded-circle border border-5 border-dark-subtle">
+          Your<br>Next<br>Hire</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curriculum Vitae Section -->
+  <!-- The above code is an HTML section that represents a Curriculum Vitae (CV) for a person named
+  Satyam Gupta. It includes various sections such as personal information, technical proficiency,
+  personal passions, summary, highlights of qualifications, education, additional courses &
+  training, work experience, and extracurricular activities. -->
+  <section class="container py-5" id="cv">
+    <div class="row mt-4 py-3">
+      <div class="col-12 d-flex flex-column text-center">
+        <h2 style="text-decoration-line: underline;">CURRICULUM VITAE</h2>
+        <h5 class="text-secondary fw-normal py-2 fst-italic">A small sampling of some of the projects I've worked on as
+          a student of the ICS program.</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 mt-5 order-lg-0 order-1 text-center">
+        <img class="img-fluid rounded-circle border border-5 border-dark-subtle" src="images/profile-img.jpg"
+          alt="profile-img">
+        <h2 class="mt-3">Satyam Gupta</h2>
+        <ul class="list-unstyled contact-info">
+          <li><i class="fas fa-envelope me-2"></i>satgup6902@gmail.com</li>
+          <li><i class="fas fa-phone me-2"></i> (+91) 9140785089</li>
+        </ul>
+        <ul class="social-icons my-5 d-flex justify-content-center">
+          <a href="https://mail.google.com/"
+            class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i
+              class="fa-brands fa-google-plus"></i></a>
+          <a href="https://github.com/Satyam2344"
+            class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/satyam-gupta-692150214/"
+            class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i
+              class="fa-brands fa-linkedin-in"></i></a>
+        </ul>
+        <h5 style="text-decoration-line: underline;">Technical Proficiency</h5>
+        <ul class="list-unstyled">
+          <li><i class="devicon-php-plain" style="font-size: 28px;"></i> PHP and its framework</li>
+          <li><i class="devicon-html5-plain"></i> HTML</li>
+          <li><i class="devicon-css3-plain"></i> CSS</li>
+          <li><i class="devicon-javascript-plain"></i> JavaScript</li>
+          <li><i class="devicon-tailwindcss-original"></i> Tailwind CSS</li>
+          <li><i class="devicon-python-plain"></i> Python and its framework</li>
+          <li><i class="devicon-mongodb-plain-wordmark colored" style="font-size: 28px;"></i> MongoDB</li>
+          <li><i class="devicon-mysql-plain-wordmark" style="font-size: 28px;"></i> MySQL</li>
+          <li><i class="devicon-docker-plain-wordmark colored" style="font-size: 28px;"></i> Docker</li>
+          <li><i class="devicon-postman-plain-wordmark colored" style="font-size: 28px;"></i> POSTMAN</li>
+          <li><i class="devicon-github-original-wordmark colored" style="font-size: 28px;"></i> GitHub</li>
+
+
+          <!-- Add or remove skills as needed -->
+        </ul>
+        <h5 style="text-decoration-line: underline;">Personal Passions</h5>
+        <ul class="list-unstyled">
+          <li><i style='font-size:18px' class='fas'>&#xf1fc;</i> Painting</li>
+          <li><i style='font-size:18px' class='fas'>&#xf11b;</i> Gaming</li>
+          <li>View <a href="https://drive.google.com/file/d/1l_WJmn8FHjQ2OO20D8T2gIrrMcWwwgAx/view?usp=sharing">My
+              Resume</a></li>
+
+          <!-- Add or remove interests as needed -->
+        </ul>
+      </div>
+      <div class="col-lg-7 order-lg-1 order-0 mt-5 text-start">
+        <h3 style="text-decoration-line: underline;">Summary</h3>
+        <hr>
+        <p>As a seasoned back-end developer, I specialize in seamlessly integrating Shopify and
+          Amazon platforms using the powerful Phalcon PHP framework. My standout achievement
+          includes crafting an application that optimizes customer management and synchronizes
+          warehouse operations across both platforms. I excel in leveraging REST APIs and possess
+          deep expertise in the Amazon Marketplace and its APIs. With 1.7 years of hands-on
+          experience, I bring strong skills in back-end development and e-commerce integration, ready
+          to drive impactful solutions for your next project.
+        </p>
+        <h3 style="text-decoration-line: underline;">Highlights of Qualifications</h3>
+        <hr>
+        <ul>
+          <li>Graduated with First division in Bachelor of Technology(Information Technology) from Pranveer Singh
+            Institute of Technology (2018-2022)</li>
+          <li>Completed Intermediate with First Division from Onkareshwar Saraswati Inter College (2017)</li>
+          <li>Completed High School with First Division from Onkareshwar Saraswati Inter College (2015)</li>
+          <!-- Add or remove qualifications as needed -->
+        </ul>
+        <h3 style="text-decoration-line: underline;">Education</h3>
+        <hr>
+        <dl>
+          <dt>2018 - 2022</dt>
+          <dd style="color: blue;">Pranveer Singh Institute of Technology</dd>
+          <dd>Bachelor of Technology (Information Technology) </dd>
+        </dl>
+
+        <dl>
+          <dt>2016 - 2017</dt>
+          <dd style="color: blue;">Onkareshwar Saraswati Vidya Niketan Inter college</dd>
+          <dd>Intermediate</dd>
+        </dl>
+
+        <dl>
+          <dt>2014 - 2015</dt>
+          <dd style="color: blue;">Onkareshwar Saraswati Vidya Niketan Inter college</dd>
+          <dd>High School</dd>
+        </dl>
+        <h3 style="text-decoration-line: underline;">Additional Courses & Training</h3>
+        <hr>
+        <ul style="list-style-type:square">
+          <li>Certificate of Completing Programming for Everybody (Getting Started with Python) an online non-credit
+            course
+            authorized by University of Michigan and offered through Coursera (4 week during pandemic, July 2020).</li>
+          <li>• Certificate of Completing Programming Data Structure an online non-credit course authorized by
+            University of
+            Michigan and offered through Coursera (4 week during pandemic, July 2020).</li>
+          <li>Certificate of Completing Introduction to HTML 5 an online non-credit course authorized by University of
+            Michigan
+            and offered through Coursera (4 week during pandemic, July 2020).</li>
+          <li>Certificate of Completing Introduction to CSS 3 an online non-credit course authorized by University of
+            Michigan
+            and offered through Coursera (4 week during pandemic, July 2020).</li>
+          <li>Certificate of Completing Step-by-Step Machine Learning With Python an online course offered through Udemy
+            ( May, 2020).</li>
+        </ul>
+
+        <!-- Add or remove work experience entries as needed -->
+        <!-- The above code is displaying a section titled "Work Experience" with details about a job
+        position at CEDCOSS Technology Private Limited in Lucknow, Uttar Pradesh. It includes
+        information about the duration of employment, job title, responsibilities, and skills
+        related to back-end development and e-commerce integration. The text is styled with
+        underlines, colors, and list formatting to present the information in a structured and
+        visually appealing manner. -->
+        <h3 style="text-decoration-line: underline;">Work Experience</h3>
+        <hr>
+        <dl>
+          <dt>2022 - 2023</dt>
+          <dd style="color: blue;">CEDCOSS Technology Private Limited Lucknow, Uttar Pradesh</dd>
+          <dd>Associate Software Engineer </dd>
+          <dd style="text-decoration-line: underline; font-weight: 700;">Job Position: </dd>
+          <ul style="list-style-type:square">
+            <li>Back-end developer specializing in e-commerce integration.</li>
+            <li>Proficient in integrating Shopify and Amazon platforms using the Phalcon PHP framework.</li>
+            <li>Developed applications for seamless customer management across Shopify and
+              Amazon.Focused on warehouse and inventory synchronization.</li>
+            <li>Expertise in utilizing REST APIs for integration purposes.</li>
+            <li>In-depth knowledge of Amazon Marketplace and its API.</li>
+            <li>Hands-on experience of 1.7 years(with 2 months Notice Period) in back-end development
+              and e-commerce integration.</li>
+
+          </ul>
+
+        </dl>
+
+        <h3 style="text-decoration-line: underline;">Extracurricular Activities</h3>
+        <hr>
+        <dl>
+          <dt style="color: blue;">TISEC LLP (Internship)</dt>
+          <dd>Web Developer</dd>
+          <dd style="text-decoration-line: underline; font-weight: 700;">Details of your involvement and contributions:
+          </dd>
+          <ul style="list-style-type:square">
+            <li>Development of Online Examination
+              System: We have developed an
+              online examination system designed
+              to ensure academic integrity through
+              comprehensive proctoring of
+              students.</li>
+            <li>Utilization of Peer-to-Peer
+              Technology: Our system utilizes a
+              peer-to-peer architecture, enabling
+              teachers to monitor each student
+              individually and effectively during
+              examinations.
+            </li>
+            <li><a
+                href="https://drive.google.com/file/d/1Wgrs0u4WIqsPSDclZVzeGHxkAJhkap20/view?usp=drive_link">Internship
+                Certificate</a></li>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- The above code is creating a footer section for a webpage. It includes a container with copyright
+ information and social media icons for Google Plus, GitHub, and LinkedIn. Each social media icon is
+ a clickable link to the respective profiles. -->
+  <footer>
+    <div class="container-xxl flex-wrap pt-3 d-flex align-items-center justify-content-between">
+      <p>Copyright © 2024 Satyam Gupta</p>
+      <ul class="social-icons d-flex">
+        <a href="https://mail.google.com/"
+          class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i
+            class="fa-brands fa-google-plus"></i></a>
+        <a href="https://github.com/Satyam2344"
+          class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/satyam-gupta-692150214/"
+          class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i
+            class="fa-brands fa-linkedin-in"></i></a>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- The above code is linking to the Bootstrap JavaScript library hosted on a CDN (Content Delivery
+  Network). It is specifically linking to the Bootstrap bundle file which includes both Bootstrap's
+  JavaScript and its dependencies. The integrity attribute is used for Subresource Integrity (SRI)
+  to ensure that the file has not been tampered with. The crossorigin attribute is used for
+  specifying how the element handles crossorigin requests. -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
