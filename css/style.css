@@ -9,11 +9,21 @@
 body {
   /* background: var(--bg-color) !important; */
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(183, 183, 230, 0.5887605042016807) 35%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(166, 163, 238) 0%,
+    rgba(183, 183, 230, 0.5887605042016807) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
-nav{
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,6,84,0.8520658263305322) 35%, rgba(0,212,255,1) 100%);
+nav {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(39, 6, 84, 0.8520658263305322) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 /* Changing link color */
@@ -94,9 +104,112 @@ footer .social-icons a {
 }
 
 @media screen and (max-width: 668px) {
-
   #skills .card,
   #portfolio .card-wrapper {
     width: 100% !important;
+  }
+}
+
+.contact-section {
+  background-color: transparent;
+  padding: 40px 20px;
+  align-items: center;
+
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 1.125rem;
+  color: #333;
+  margin-bottom: 32px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.input-group {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background-color: rgb(223, 234, 238);
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #a2b4c7;
+  outline: none;
+  
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+
+  .input-group {
+    width: 100%;
   }
 }
