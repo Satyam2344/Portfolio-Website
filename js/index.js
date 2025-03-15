@@ -107,6 +107,8 @@ document.addEventListener("DOMContentLoaded", function () {
             function (response) {
               alert("Email sent successfully!");
               console.log("Success:", response);
+              //reload the window after message send successfully!!
+              window.location.reload();
             },
             function (error) {
               alert("Failed to send the email. Please try again.");
